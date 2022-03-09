@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Typing-game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="dashboard">
+        <div class="all-words">все слова</div>
+        <div class="game">
+          <div class="current-word">правила</div>
+          <input type="text" id="userInput" />
+          <label for="userInput">можно исправлять пока не нажал "пробел"</label>
+          <button class="new-game">Start</button>
+          <button>change Language</button>
+        </div>
+      </div>
+
+      <div class="words">
+        <div class="word1">word1</div>
+        <div class="word2">word2</div>
+        <div class="word3">word3</div>
+      </div>
+    </div>
+
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>
